@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+face:
+#  match_url: /api/access/v1/transmit
+#  match_url: http://127.0.0.1:8080/bank_psbc/face/register
+  match_url: http://200.128.127.67:9300/api/access/v1/transmit
+  #  up_file_path: E:\PersonorInfo
+  up_file_path: D:\test
+  base_info: test
